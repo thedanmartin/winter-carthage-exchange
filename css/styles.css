@@ -1,0 +1,94 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container  {
+    position: relative;
+    width: 100vw;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.part {
+    padding-bottom: 20px;
+}
+
+h1  {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 30px;
+    color: darkgreen;
+    text-decoration: overline;
+}
+
+h2  {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    line-height: 30px;
+    color: grey;
+}
+
+h3  {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: darkgreen;
+    padding: 10px 0 10px 0;
+}
+
+.italic {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 0 10px 0;
+}
+
+ul {
+  padding: 10px 0 10px 0;
+}
+
+li {
+  font-family: 'Merriweather', serif;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: darkgreen;
+}
+
+/* visited link */
+a:visited {
+  color: darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: grey;
